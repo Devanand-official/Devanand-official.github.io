@@ -23,7 +23,7 @@ p {
 
 a,
 .btn {
-  transition: all 300 ease;
+  transition: all 300ms ease;
 }
 
 /* DESKTOP NAV  */
@@ -90,7 +90,7 @@ a:hover {
   width: 100%;
   height: 2px;
   background-color: black;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3ms ease-in-out;
 }
 
 .menu-links {
@@ -101,7 +101,7 @@ a:hover {
   width: fit-content;
   max-height: 0;
   overflow: hidden;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3ms ease-in-out;
 }
 
 .menu-links a {
@@ -111,7 +111,7 @@ a:hover {
   font-size: 1.5rem;
   color: black;
   text-decoration: none;
-  transition: all 0.3 ease-in-out;
+  transition: all 0.3ms ease-in-out;
 }
 
 .menu-links li {
@@ -323,6 +323,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-top: 5%;
 }
 
 .article-container {
@@ -333,7 +334,14 @@ section {
   gap: 2.5rem;
   justify-content: space-around;
 }
+/* ----------------------------------------------- */
 
+.article-container article {
+  padding-left: 10%;
+  align-items: center;
+  flex: 1 1 30%;
+}
+/* ---------------------------------------------------- */
 .article {
   display: flex;
   width: 10rem;
