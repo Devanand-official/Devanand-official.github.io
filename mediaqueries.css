@@ -153,3 +153,30 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 900px) {
+  /* #experience.experience-details-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  } */
+  /* Each skill takes full width of container */
+  .article-container article {
+    flex: 1 1 100%; /* full width */
+    justify-content: flex-start; /* icon + text aligned left inside center */
+  }
+
+  /* Make skills inside each box 1 column (6 rows) */
+  .article-container {
+    flex-direction: column; /* stack skill items vertically */
+    align-items: center; /* center each skill horizontally */
+    gap: 1rem; /* spacing between skills */
+  }
+  #experience.experience-sub-title {
+    font-size: 1.8rem;
+    word-break: break-all;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+}
