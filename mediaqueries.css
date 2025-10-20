@@ -141,3 +141,17 @@
     flex-direction: column;
   }
 }
+/* --------------------------------------------------------------- */
+@media screen and (min-width: 1572px) {
+  .article-container article {
+    /* ~2 per row */
+    flex: 1 1 calc(45% - 1rem);
+    max-width: 30%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #experience .experience-details-container {
+    margin-top: 10%;
+  }
+}
