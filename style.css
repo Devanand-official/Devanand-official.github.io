@@ -336,13 +336,13 @@ section {
 }
 /* ----------------------------------------------- */
 
-.article-container article {
+/* .article-container article {
   padding-left: 10%;
   align-items: center;
-  flex: 1 1 30%;
-}
+  flex: 1 1 30%; 
+}*/
 /* ---------------------------------------------------- */
-.article {
+article {
   display: flex;
   width: 10rem;
   gap: 0.5rem;
