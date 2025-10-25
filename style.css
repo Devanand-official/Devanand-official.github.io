@@ -380,6 +380,12 @@ article.icon {
   border-color: rgb(163, 163, 163);
 }
 
+/* GAMES  */
+
+#games {
+  position: relative;
+}
+
 /* CONTACT */
 
 #contact {
