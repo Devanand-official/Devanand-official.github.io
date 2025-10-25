@@ -22,5 +22,5 @@ Implemented Flexbox and Grid layouts for a clean, adaptive, and mobile-friendly 
   
 ### 🛠️ Technologies Used:
 - HTML
-- CSS
+- CSS 
 - JavaScript
