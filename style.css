@@ -346,7 +346,8 @@ article {
   display: flex;
   width: 10rem;
   gap: 0.5rem;
-  justify-content: space-around;
+  /* justify-content: space-around; */
+  justify-content: flex-start;
 }
 
 article.icon {
